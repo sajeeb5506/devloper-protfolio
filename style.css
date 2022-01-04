@@ -1,3 +1,44 @@
-body{
+body {
     font-family: 'Spline Sans', sans-serif;
+    margin: 0;
+}
+
+span {
+    color: coral;
+
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+section {
+    display: flex;
+}
+
+.falf-width {
+    width: 50%;
+    padding-left: 8%;
+}
+
+.falf-width img {
+    width: 80%;
+}
+
+.btn {
+    text-decoration: none;
+    background-image: linear-gradient(coral, tomato);
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 10px;
+
+}
+
+.top-banner {
+    background-image: url(/images/top-banner.png);
+    background-repeat: no-repeat;
+
 }
